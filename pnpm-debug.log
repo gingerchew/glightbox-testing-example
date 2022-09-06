@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "message": {
+      "errno": 1,
+      "code": "ELIFECYCLE",
+      "pkgid": "glightbox-testing-example@1.0.0",
+      "stage": "config",
+      "script": "vitest --config ./",
+      "pkgname": "glightbox-testing-example"
+    },
+    "err": {
+      "name": "Error",
+      "message": "glightbox-testing-example@1.0.0 config: `vitest --config ./`\nExit status 1",
+      "code": "ELIFECYCLE",
+      "stack": "Error: glightbox-testing-example@1.0.0 config: `vitest --config ./`\nExit status 1\n    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/pnpm/lib/node_modules/@zkochan/npm-lifecycle/index.js:302:16)\n    at EventEmitter.emit (node:events:513:28)\n    at ChildProcess.<anonymous> (/usr/local/lib/node_modules/pnpm/lib/node_modules/@zkochan/npm-lifecycle/lib/spawn.js:55:14)\n    at ChildProcess.emit (node:events:513:28)\n    at maybeClose (node:internal/child_process:1091:16)\n    at ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+    }
+  }
+}
